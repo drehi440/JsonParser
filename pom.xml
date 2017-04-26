@@ -1,0 +1,42 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.rehi.harman</groupId>
+	<artifactId>NSO_ICE</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+
+	<properties>
+		<slf4jVersion>1.6.1</slf4jVersion>
+	</properties>
+
+	<dependencies>
+
+	    <!-- Jackson libraries for JSON marshalling and unmarshalling -->
+    <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-databind</artifactId>
+        <version>2.2.3</version>
+    </dependency>
+
+    <!-- Jackson module for scala object marshalling and unmarshalling -->
+    <dependency>
+        <groupId>com.fasterxml.jackson.module</groupId>
+        <artifactId>jackson-module-scala_2.10</artifactId>
+        <version>2.2.2</version>
+    </dependency>
+
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>${slf4jVersion}</version>
+		</dependency>
+
+	</dependencies>
+<!-- https://dzone.com/articles/adding-slf4j-your-maven for different binding properties -->
+<!-- https://coderwall.com/p/o-\-apg/easy-json-un-marshalling-in-scala-with-jackson -->	 
+
+
+
+
+</project>
