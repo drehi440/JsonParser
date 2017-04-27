@@ -14,10 +14,11 @@ object TransformationEngine extends App {
   logger.info("TRANSFORMATION ENGINE STARTED")
   
   val sc = SparkManager.getSparkSession.sparkContext
+  
   val sql = SparkManager.getSparkSession.sqlContext
 
   val readFile = sql.read.json(sc.wholeTextFiles("C:\\Users\\drehi\\git\\JsonParser\\src\\main\\resources\\test.json", 1).values)
   
-  readFile.show()
+  readFile.show(false)
   
 }
