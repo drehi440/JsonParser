@@ -2,15 +2,13 @@ package com.rehi.harman.main
 
 import com.rehi.harman.logger.loggerGlobal
 
-object TransformationEngine  extends App{
-  //main class started
-  
- 
-  val logger = loggerGlobal.getLogger(TransformationEngine.getClass.getName)
+import com.typesafe.scalalogging.slf4j.LazyLogging
 
-  logger.info("This is the first thing!")
-  logger.info("Start Transformation Engine")
 
+object TransformationEngine extends App {
   
+  val logger = loggerGlobal.getLogger
+  
+  logger.info(s"THIS IS WORKING")
   
 }

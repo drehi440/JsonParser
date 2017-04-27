@@ -1,15 +1,13 @@
 package com.rehi.harman.logger
 
-import java.util.logging.Logger
-import java.util.logging.Level
+import com.typesafe.scalalogging.slf4j.LazyLogging
 
-object loggerGlobal {
+
+
+object loggerGlobal extends LazyLogging {
   
-  def getLogger(className : String): Logger ={
-    val logger = Logger.getLogger(className)
-    logger.setLevel(Level.INFO)
-
-    logger
-  }
+  def getLogger = logger
+  
+  
   
 }
