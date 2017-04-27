@@ -19,6 +19,7 @@ object TransformationEngine extends App {
 
   val readFile = sql.read.json(sc.wholeTextFiles("C:\\Users\\drehi\\git\\JsonParser\\src\\main\\resources\\test.json", 1).values)
   
+  //to show the full content of the column
   readFile.show(false)
   
 }
