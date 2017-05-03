@@ -1,71 +1,22 @@
-[{
- "Year": "2013",
- "First Name": "DAVID",
- "County": "KINGS",
- "Sex": "M",
- "Count": "272",
- "Kids" :[
- 	{ 
- 	"name" : "Harish",
- 	"Sex"  : "Male"
- 	},
- 	{ 
- 	"name" : "Babita",
- 	"Sex"  : "Female"
- 	}
- ]
-}, {
- "Year": "2013",
- "First Name": "JAYDEN",
- "County": "KINGS",
- "Sex": "M",
- "Count": "268",
- "Kids" :[
- 	{ 
- 	"name" : "Jacky",
- 	"Sex"  : "Male"
- 	},
- 	{ 
- 	"name" : "Bobby",
- 	"Sex"  : "Male"
- 	}
- ]
-}, {
- "Year": "2013",
- "First Name": "JAYDEN",
- "County": "QUEENS",
- "Sex": "M",
- "Count": "219",
- "Kids" :[
- 	{ 
- 	"name" : "Jigna",
- 	"Sex"  : "Female"
- 	},
- 	{ 
- 	"name" : "Suresh",
- 	"Sex"  : "Male"
- 	}
- ]
-}, {
- "Year": "2013",
- "First Name": "MOSHE",
- "County": "KINGS",
- "Sex": "M",
- "Count": "219"
-}, {
- "Year": "2013",
- "First Name": "ETHAN",
- "County": "QUEENS",
- "Sex": "M",
- "Count": "216",
- "Kids" :[
- 	{ 
- 	"name" : "Heera",
- 	"Sex"  : "Male"
- 	},
- 	{ 
- 	"name" : "Panna",
- 	"Sex"  : "Female"
- 	}
- ]
-}]
+{
+	"user": "gT35Hhhre9m",
+	"dates": ["2016-01-29", "2016-01-28"],
+	"status": "OK",
+	"reason": "some reason",
+	"content": [{
+		"foo": 123,
+		"bar": "val1"
+	}, {
+		"foo": 456,
+		"bar": "val2"
+	}, {
+		"foo": 789,
+		"bar": "val3"
+	}, {
+		"foo": 124,
+		"bar": "val4"
+	}, {
+		"foo": 126,
+		"bar": "val5"
+	}]
+}
